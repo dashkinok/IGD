@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -42,6 +42,7 @@ public class ButtonBehaviour : MonoBehaviour {
 												  GetComponent<Image>().color.b,0);
 			GetComponent<Button>().enabled = false;
 			this.transform.SetSiblingIndex(0);
+
 		}
 	}
 

@@ -16,7 +16,7 @@ public class ZoomInObject : MonoBehaviour, IInteractable
 			Camera.main.transform.position = new Vector3 (this.transform.position.x , this.transform.position.y,
 				Camera.main.transform.position.z);
 			gameObject.layer = 2;
-			currentDisplay.CurrentState = DisplayImage.State.zoom;
+			currentDisplay.CurrentState = DisplayImage.State.zoom;  //why this thooo?
 
 
 			//ConstrainCamera();

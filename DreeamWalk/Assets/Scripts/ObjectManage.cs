@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,7 +18,7 @@ public class ObjectManage : MonoBehaviour {
 		ManageObjects();
 	}
 
-	void ManageObjects()
+	void ManageObjects() //very confused
 	{
 		for (int i = 0; i < ObjectsToManage.Length; i++)
 		{
